@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "mistral-server"
+version = "0.1.0"
+description = ""
+authors = ["Andre Luiz M. Rocha <andrecorumba@gmail.com>"]
+readme = "README.md"
+packages = [{include = "mistral_server"}]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+transformers = "^4.37.2"
+torch = "^2.2.0"
+torchvision = "^0.17.0"
+torchaudio = "^2.2.0"
+python-dotenv = "^1.0.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
